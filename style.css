@@ -1,0 +1,120 @@
+h1, h2, h3, th {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h3, th {
+    font-family: 'Montserrat', sans-serif;
+    color: #06F333;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 16px;
+  color: white
+}
+
+body{
+  background-color: #19207A;
+  line-height: 1;
+}
+
+/*h1, h2{
+  color: #06F333;
+}*/
+
+li, i {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+}
+
+li{
+  display: inline-block;
+  margin-left: 30px;
+  padding: 30px;
+}
+
+.social_media {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.social_media:hover {
+  text-decoration: underline;
+  color: #06F333;
+}
+
+tbody{
+  background-color: #1E2586;
+}
+
+body img{
+  max-width: 200px;
+}
+
+tbody img{
+  max-width: 350px;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: white
+}
+
+h3 {
+  font-size: 20px;
+}
+
+div {
+    display: block;
+}
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background: #1E2586;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.gif_card_1{
+  max-width: 100px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+
+
